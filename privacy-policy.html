@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Join Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --tg-bg: #0e0e0e;
+            --tg-accent: #facc15;
+            --tg-card: #1c1c1c;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--tg-bg);
+            color: #d4d4d8;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .bg-pattern {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 10l5 5m10-5l-5 5M50 10l5 5m10-5l-5 5M90 10l5 5m-15 40l5 5m10-5l-5 5M50 50l5 5m10-5l-5 5M10 50l5 5m10-5l-5 5M30 90l5 5m10-5l-5 5M70 90l5 5m10-5l-5 5' stroke='%23222' fill='none' stroke-width='1'/%3E%3Ccircle cx='30' cy='30' r='2' fill='%23222'/%3E%3Crect x='70' y='30' width='4' height='4' fill='%23222'/%3E%3Cpath d='M20 70h10v10H20z' fill='%23222'/%3E%3Cpath d='M80 70l5 10h-10z' fill='%23222'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            opacity: 0.3;
+            z-index: -1;
+        }
+
+        .glass-card {
+            background: rgba(28, 28, 28, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: white;
+            font-weight: 700;
+        }
+
+        .accent-text {
+            color: var(--tg-accent);
+        }
+
+        .back-link:hover {
+            color: var(--tg-accent);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen py-12 px-4 md:px-0">
+    <div class="bg-pattern"></div>
+
+    <div class="max-w-3xl mx-auto">
+        <div class="mb-8">
+            <a href="index.html" class="back-link text-zinc-500 font-medium flex items-center gap-2 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                        clip-rule="evenodd" />
+                </svg>
+                Back to Home
+            </a>
+        </div>
+
+        <div class="glass-card p-8 md:p-12 rounded-3xl space-y-8 shadow-2xl">
+            <header class="border-b border-zinc-800 pb-8">
+                <h1 class="text-4xl mb-2">Privacy Policy</h1>
+                <p class="text-zinc-500">Last updated: March 02, 2026</p>
+            </header>
+
+            <section class="space-y-4">
+                <h2 class="text-2xl">1. Introduction</h2>
+                <p>Welcome to our landing page. We respect your privacy and are committed to protecting your personal
+                    data. This privacy policy will inform you as to how we look after your personal data when you visit
+                    our website (regardless of where you visit it from) and tell you about your privacy rights and how
+                    the law protects you.</p>
+            </section>
+
+            <section class="space-y-4">
+                <h2 class="text-2xl">2. Data We Collect</h2>
+                <p>We do not collect any personal data directly through this landing page. However, our services may
+                    involve:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><span class="font-semibold text-white">Technical Data:</span> Includes internet protocol (IP)
+                        address, browser type and version, time zone setting and location, and other technology on the
+                        devices you use to access this website.</li>
+                    <li><span class="font-semibold text-white">Usage Data:</span> Includes information about how you use
+                        our website.</li>
+                </ul>
+            </section>
+
+            <section class="space-y-4">
+                <h2 class="text-2xl">3. Telegram Integration</h2>
+                <p>This landing page provides links to our Telegram channel. Please note that when you click "View in
+                    Telegram", you are redirected to Telegram's platform, which has its own privacy policy. We do not
+                    receive any of your Telegram account information unless you choose to join the channel and interact
+                    with it.</p>
+            </section>
+
+            <section class="space-y-4">
+                <h2 class="text-2xl">4. Cookies</h2>
+                <p>We may use cookies and similar tracking technologies to track the activity on our service and hold
+                    certain information. You can instruct your browser to refuse all cookies or to indicate when a
+                    cookie is being sent.</p>
+            </section>
+
+            <section class="space-y-4">
+                <h2 class="text-2xl">5. Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, you can contact us via our Telegram channel.</p>
+            </section>
+
+            <footer class="pt-8 border-t border-zinc-800 text-sm text-zinc-500 text-center">
+                &copy; 2026 Jobs Landing Page. All rights reserved.
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
